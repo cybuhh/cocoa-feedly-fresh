@@ -711,7 +711,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <wkWebView wantsLayer="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63I-0g-Bin">
-                                <rect key="frame" x="5" y="9" width="465" height="246"/>
+                                <rect key="frame" x="8" y="12" width="465" height="246"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -721,7 +721,7 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="63I-0g-Bin" secondAttribute="bottom" constant="5" id="OTw-L8-RQy"/>
                             <constraint firstAttribute="trailing" secondItem="63I-0g-Bin" secondAttribute="trailing" constant="5" id="YQs-fL-ewb"/>
-                            <constraint firstItem="63I-0g-Bin" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="5" id="hz9-HI-zaq"/>
+                            <constraint firstItem="63I-0g-Bin" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="100" id="hz9-HI-zaq"/>
                             <constraint firstItem="63I-0g-Bin" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="5" id="zUR-4I-Ikn"/>
                         </constraints>
                     </view>
